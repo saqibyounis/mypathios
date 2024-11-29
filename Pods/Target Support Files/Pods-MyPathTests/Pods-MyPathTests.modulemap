@@ -1,0 +1,6 @@
+framework module Pods_MyPathTests {
+  umbrella header "Pods-MyPathTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
