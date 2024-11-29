@@ -1,0 +1,75 @@
+# User-specific files
+*.swp
+*.xcuserstate
+
+# Objective-C/Swift specific
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-aside
+
+# Build products
+build/
+DerivedData/
+
+# Xcode project files
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/xcdebugger/
+*.xcodeproj/xcuserdata/
+
+# Xcode workspace files
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+*.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# iOS specific
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Core Data
+*.xccurrentversion
+
+# Provisioning profiles
+*.mobileprovision
+
+# Symbolication
+*.bcsymbolmap
+
+# App Store Connect
+*.itmsp
+
+# Temporary files
+*.tmp
+*.temp
+*.swp

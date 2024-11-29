@@ -10,6 +10,8 @@
 		10A3AA872394516178730CD7 /* Pods_MyPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76BFD372843E6C5A9786DA1 /* Pods_MyPath.framework */; };
 		1111DBE12CFA67CA0069C69D /* TargetTaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBE02CFA67CA0069C69D /* TargetTaskService.swift */; };
 		1111DBE22CFA67CA0069C69D /* TargetTaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBE02CFA67CA0069C69D /* TargetTaskService.swift */; };
+		1111DBE52CFA80130069C69D /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBE42CFA80130069C69D /* AppTheme.swift */; };
+		1111DBE62CFA80130069C69D /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBE42CFA80130069C69D /* AppTheme.swift */; };
 		117CAD882CFA34EF00CF18ED /* TargetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD782CFA34EF00CF18ED /* TargetRepository.swift */; };
 		117CAD892CFA34F000CF18ED /* TargetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD782CFA34EF00CF18ED /* TargetRepository.swift */; };
 		117CAD8A2CFA34F000CF18ED /* TargetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD782CFA34EF00CF18ED /* TargetRepository.swift */; };
@@ -22,9 +24,6 @@
 		117CAD912CFA34F000CF18ED /* CreateTargetModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD7F2CFA34EF00CF18ED /* CreateTargetModelView.swift */; };
 		117CAD922CFA34F000CF18ED /* CreateTargetModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD7F2CFA34EF00CF18ED /* CreateTargetModelView.swift */; };
 		117CAD932CFA34F000CF18ED /* CreateTargetModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD7F2CFA34EF00CF18ED /* CreateTargetModelView.swift */; };
-		117CAD942CFA34F000CF18ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD822CFA34EF00CF18ED /* ContentView.swift */; };
-		117CAD952CFA34F000CF18ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD822CFA34EF00CF18ED /* ContentView.swift */; };
-		117CAD962CFA34F000CF18ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD822CFA34EF00CF18ED /* ContentView.swift */; };
 		117CAD972CFA34F000CF18ED /* CreateTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD842CFA34EF00CF18ED /* CreateTargetView.swift */; };
 		117CAD982CFA34F000CF18ED /* CreateTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD842CFA34EF00CF18ED /* CreateTargetView.swift */; };
 		117CAD992CFA34F000CF18ED /* CreateTargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD842CFA34EF00CF18ED /* CreateTargetView.swift */; };
@@ -66,11 +65,11 @@
 
 /* Begin PBXFileReference section */
 		1111DBE02CFA67CA0069C69D /* TargetTaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetTaskService.swift; sourceTree = "<group>"; };
+		1111DBE42CFA80130069C69D /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		117CAD782CFA34EF00CF18ED /* TargetRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetRepository.swift; sourceTree = "<group>"; };
 		117CAD792CFA34EF00CF18ED /* TaskRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
 		117CAD7C2CFA34EF00CF18ED /* CreateTargetDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTargetDataSource.swift; sourceTree = "<group>"; };
 		117CAD7F2CFA34EF00CF18ED /* CreateTargetModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTargetModelView.swift; sourceTree = "<group>"; };
-		117CAD822CFA34EF00CF18ED /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		117CAD842CFA34EF00CF18ED /* CreateTargetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTargetView.swift; sourceTree = "<group>"; };
 		117CAD9E2CFA35AB00CF18ED /* TaskEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskEnums.swift; sourceTree = "<group>"; };
 		117CADA32CFA35CE00CF18ED /* TargetEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetEntity.swift; sourceTree = "<group>"; };
@@ -123,6 +122,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1111DBE32CFA7FFC0069C69D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1111DBE42CFA80130069C69D /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		117CAD762CFA34EF00CF18ED /* TargetTask */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +201,6 @@
 		117CAD832CFA34EF00CF18ED /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				117CAD822CFA34EF00CF18ED /* ContentView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -210,6 +216,7 @@
 		117CAD862CFA34EF00CF18ED /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1111DBE32CFA7FFC0069C69D /* Theme */,
 				117CAD832CFA34EF00CF18ED /* Login */,
 				117CAD852CFA34EF00CF18ED /* Target */,
 			);
@@ -556,7 +563,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				117CAD882CFA34EF00CF18ED /* TargetRepository.swift in Sources */,
-				117CAD942CFA34F000CF18ED /* ContentView.swift in Sources */,
+				1111DBE52CFA80130069C69D /* AppTheme.swift in Sources */,
 				1111DBE12CFA67CA0069C69D /* TargetTaskService.swift in Sources */,
 				117CAD8B2CFA34F000CF18ED /* TaskRepository.swift in Sources */,
 				1187F12B2CF4ED720068B243 /* MyPathApp.swift in Sources */,
@@ -574,9 +581,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				117CAD8C2CFA34F000CF18ED /* TaskRepository.swift in Sources */,
+				1111DBE62CFA80130069C69D /* AppTheme.swift in Sources */,
 				117CAD8F2CFA34F000CF18ED /* CreateTargetDataSource.swift in Sources */,
 				1111DBE22CFA67CA0069C69D /* TargetTaskService.swift in Sources */,
-				117CAD952CFA34F000CF18ED /* ContentView.swift in Sources */,
 				117CAD892CFA34F000CF18ED /* TargetRepository.swift in Sources */,
 				117CAD922CFA34F000CF18ED /* CreateTargetModelView.swift in Sources */,
 				117CADA92CFA35D500CF18ED /* TaskEntity.swift in Sources */,
@@ -594,7 +601,6 @@
 				117CAD8A2CFA34F000CF18ED /* TargetRepository.swift in Sources */,
 				117CADAA2CFA35D500CF18ED /* TaskEntity.swift in Sources */,
 				1187F1482CF4ED760068B243 /* MyPathUITests.swift in Sources */,
-				117CAD962CFA34F000CF18ED /* ContentView.swift in Sources */,
 				117CAD8D2CFA34F000CF18ED /* TaskRepository.swift in Sources */,
 				1187F14A2CF4ED760068B243 /* MyPathUITestsLaunchTests.swift in Sources */,
 				117CADA62CFA35CE00CF18ED /* TargetEntity.swift in Sources */,
@@ -658,7 +664,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -721,7 +727,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -748,9 +754,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyPath/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyPath/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 7PSR4W6336;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -778,9 +785,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MyPath/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MyPath/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 7PSR4W6336;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
