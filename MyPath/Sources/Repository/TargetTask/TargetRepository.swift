@@ -10,7 +10,29 @@ import RealmSwift
 
 // Repository for managing database operations for TargetEntity
 class TargetRepository {
-    private let realm = try! Realm()
+
+    private let realm: Realm
+
+    init() {
+    
+        let config = Realm.Configuration(
+            schemaVersion: 2,
+            migrationBlock: { migration, oldSchemaVersion in
+                if oldSchemaVersion < 2 {
+                }
+            }
+        )
+        
+
+        Realm.Configuration.defaultConfiguration = config
+        
+  
+        do {
+            self.realm = try Realm()
+        } catch {
+            fatalError("Error initializing Realm: \(error.localizedDescription)")
+        }
+    }
 
     func getAllTargets() -> Results<TargetEntity> {
         return realm.objects(TargetEntity.self)

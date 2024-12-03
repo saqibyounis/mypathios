@@ -6,13 +6,12 @@
 //
 
 import SwiftUI
-import SwiftData
 
 @main
 struct MyPathApp: App {
     var body: some Scene {
         WindowGroup {
-            CreateTargetView()
+            HomeScreen()
         }
     
     }

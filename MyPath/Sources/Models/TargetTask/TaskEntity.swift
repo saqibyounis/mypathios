@@ -13,24 +13,24 @@ class MetaData: Object {
     @Persisted var value: String
 }
 
-class TaskEntity: Object {
+class TaskEntity: Object, Identifiable {
     @Persisted(primaryKey: true) var id: String = UUID().uuidString
-    @Persisted var icon: String
+    @Persisted var icon: String?
     @Persisted var title: String
-    @Persisted var descriptionText: String // Renamed from `description`
+    @Persisted var descriptionText: String
     @Persisted var classification: Classification
-    @Persisted var duration: Double // In seconds for precise cloud syncing
-    @Persisted var createdTime: Int // Automatically set when the task is created
+    @Persisted var duration: Double?
+    @Persisted var createdTime: Int
     @Persisted var scheduledTime: Int?
     @Persisted var actualStartTime: Int?
     @Persisted var actualEndTime: Int?
     @Persisted var status: TaskStatus
-    @Persisted var priorityScore: Double
+    @Persisted var priorityScore: Double?
     @Persisted var source: TaskSource
     @Persisted var externalId: String?
-    @Persisted var metadata: List<MetaData>
-    @Persisted var targetId: String // Reference to parent target
-    @Persisted var files: List<String> // List of file references
+    @Persisted var metadata: List<MetaData> = List<MetaData>()
+    @Persisted var targetId: String
+    @Persisted var files: List<String> = List<String>()
 
     convenience init(
         id: String,

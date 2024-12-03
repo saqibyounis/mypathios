@@ -7,7 +7,6 @@
 
 import Foundation
 
-// Service to handle sync logic and data operations
 class TargetTaskService {
     private let taskRepository = TaskRepository()
     private let targetRepository = TargetRepository()
@@ -62,20 +61,29 @@ class TargetTaskService {
     }
     
 
+
+    func fetchTasks(for date: Date) -> [TaskEntity] {
+        let startOfDay = Int(Calendar.current.startOfDay(for: date).timeIntervalSince1970 * 1000)
+        let endOfDay = Int(Calendar.current.date(byAdding: .day, value: 1, to: Calendar.current.startOfDay(for: date))!.timeIntervalSince1970 * 1000)
+        
+        let results = taskRepository.getTasks(startTimestamp: startOfDay, endTimestamp: endOfDay)
+        return Array(results)
+    }
+
+    func fetchTasks(from startDate: Date, to endDate: Date) -> [TaskEntity] {
+        let startTimestamp = Int(startDate.timeIntervalSince1970 * 1000)
+        let endTimestamp = Int(endDate.timeIntervalSince1970 * 1000)
+
+        let results = taskRepository.getTasks(startTimestamp: startTimestamp, endTimestamp: endTimestamp)
+        return Array(results)
+    }
     
-        func fetchTasks(for date: Date) -> [TaskEntity] {
-            let startOfDay = Int(Calendar.current.startOfDay(for: date).timeIntervalSince1970 * 1000)
-            let endOfDay = Int(Calendar.current.date(byAdding: .day, value: 1, to: Calendar.current.startOfDay(for: date))!.timeIntervalSince1970 * 1000)
-            
-            let results = taskRepository.getTasks(startTimestamp: startOfDay, endTimestamp: endOfDay)
-            return Array(results)
-        }
-
-        func fetchTasks(from startDate: Date, to endDate: Date) -> [TaskEntity] {
-            let startTimestamp = Int(startDate.timeIntervalSince1970 * 1000)
-            let endTimestamp = Int(endDate.timeIntervalSince1970 * 1000)
-
-            let results = taskRepository.getTasks(startTimestamp: startTimestamp, endTimestamp: endTimestamp)
-            return Array(results)
-        }
+    func addTarget(target: TargetEntity) {
+        targetRepository.addTarget(target: target)
+    }
+    
+    func addTask(task: TaskEntity) {
+        taskRepository.addTask(task: task)
+    }
+    
 }
