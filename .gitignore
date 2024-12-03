@@ -1,75 +1,79 @@
-# User-specific files
+# Xcode
+.DS_Store
 *.swp
+*.lock
 *.xcuserstate
-
-# Objective-C/Swift specific
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-*.xccheckout
+xcuserdata/
+DerivedData/
+.idea/
 *.moved-aside
+*.hmap
+*.xccheckout
+*.xcscmblueprint
 
 # Build products
 build/
-DerivedData/
-
-# Xcode project files
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/xcshareddata/xcdebugger/
-*.xcodeproj/xcuserdata/
-
-# Xcode workspace files
-*.xcworkspace/*
-!*.xcworkspace/contents.xcworkspacedata
-!*.xcworkspace/xcshareddata/
-*.xcworkspace/xcuserdata/
-
-# Swift Package Manager
-.build/
-*.swiftpm/
-Package.resolved
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+*.xcarchive
 
 # CocoaPods
 Pods/
 Podfile.lock
+*.xcworkspace
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
 
 # Carthage
 Carthage/Build/
-Carthage/Checkouts/
 
 # Fastlane
 fastlane/report.xml
 fastlane/Preview.html
-fastlane/screenshots/**/*.png
+fastlane/screenshots
 fastlane/test_output
+fastlane/report.junit
 
 # Archives
 *.xcarchive
-
-# iOS specific
-*.ipa
-*.dSYM.zip
-*.dSYM
 
 # Playgrounds
 timeline.xctimeline
 playground.xcworkspace
 
-# Core Data
-*.xccurrentversion
+# Other
+*.orig
+*.crt
+*.pem
+*.p12
+*.key
 
-# Provisioning profiles
-*.mobileprovision
+# Logs
+*.log
+*.mark
+*.plist
 
-# Symbolication
-*.bcsymbolmap
+# Realm Database
+*.realm
+*.realm.lock
+*.realm.management
+*.realm.note
 
-# App Store Connect
-*.itmsp
+# Firebase
+GoogleService-Info.plist
 
 # Temporary files
 *.tmp
 *.temp
+*.bak
 *.swp
+*.swo
+
+# Custom exclusion
+.env
+Secrets/
