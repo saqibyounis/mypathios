@@ -1333,6 +1333,7 @@ PODS:
   - RealmSwift (20.0.0):
     - Realm (= 20.0.0)
   - RecaptchaInterop (100.0.0)
+  - Resolver (1.5.1)
   - RxCocoa (6.8.0):
     - RxRelay (= 6.8.0)
     - RxSwift (= 6.8.0)
@@ -1353,6 +1354,7 @@ DEPENDENCIES:
   - Firebase/Firestore
   - Firebase/Storage
   - RealmSwift (~> 20.0)
+  - Resolver
   - RxCocoa (~> 6.6)
   - RxRelay (~> 6.6)
   - RxSwift (~> 6.6)
@@ -1382,6 +1384,7 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - RecaptchaInterop
+    - Resolver
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -1410,11 +1413,12 @@ SPEC CHECKSUMS:
   Realm: a799b5f9145623fb0bfe149fe81422863631dd0f
   RealmSwift: f8c4354ebd5053343e6ab9f4eda244145308a51e
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
+  Resolver: 0e2ce51257e9366c54afe1b9e9be25059e9b9300
   RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
   RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
   RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
   RxSwiftExt: 43aaacb6a4d3c69c55e9d1cf4f79920043d13583
 
-PODFILE CHECKSUM: 8495e4452fdf8689c193518796eca196aa8c8eac
+PODFILE CHECKSUM: f0c845c5f621c65071caf2e8313ef9022c9c4f6d
 
 COCOAPODS: 1.15.2

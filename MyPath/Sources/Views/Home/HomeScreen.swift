@@ -12,24 +12,58 @@ struct HomeScreen: View {
         NavigationView {
            
              List {
-                    NavigationLink(destination: TargetListView()) {
+                 NavigationLink(destination: GoalFormView()) {
                     VStack(alignment: .leading) {
-                        Text("Targets")
+                        Text("Goal")
                             .font(.headline)
-                        Text("View all the targets")
+                        Text("Create Goal")
                             .font(.subheadline)
                             .foregroundColor(.secondary)
                     }}
                 
              
-                 NavigationLink(destination:  TargetFormView()) {
-                     VStack(alignment: .leading) {
-                         Text("Add new Target")
-                             .font(.headline)
-                         Text("Create new target")
-                             .font(.subheadline)
-                             .foregroundColor(.secondary)
-                     }}
+                 NavigationLink(destination: GoalsListView()) {
+                    VStack(alignment: .leading) {
+                        Text("Goal List")
+                            .font(.headline)
+                        Text("View all Goals")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }}
+                 NavigationLink(destination: TargetFormView(goalName: nil, goalId: nil)) {
+                    VStack(alignment: .leading) {
+                        Text("Target")
+                            .font(.headline)
+                        Text("Create a Target")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }}
+                 NavigationLink(destination: TargetListView()) {
+                    VStack(alignment: .leading) {
+                        Text("Target List")
+                            .font(.headline)
+                        Text("View all Target")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }}
+                 
+                 NavigationLink(destination: TaskFormView(targetName: nil, targetId: nil, task: nil)) {
+                    VStack(alignment: .leading) {
+                        Text("Task")
+                            .font(.headline)
+                        Text("Create a Task")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }}
+                 
+                 NavigationLink(destination: TaskListView()) {
+                    VStack(alignment: .leading) {
+                        Text("Task List")
+                            .font(.headline)
+                        Text("View all Tasks")
+                            .font(.subheadline)
+                            .foregroundColor(.secondary)
+                    }}
                 
              }.navigationTitle("Home")
             }
@@ -37,9 +71,3 @@ struct HomeScreen: View {
         
     }
 }
-
-//struct HomeScreen_Previews: PreviewProvider {
-//    static var previews: some View {
-//        HomeScreen()
-//    }
-//}

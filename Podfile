@@ -20,6 +20,8 @@ target 'MyPath' do
 
   # Optional: RxSwift extensions (if needed)
   pod 'RxSwiftExt'
+  pod "Resolver"
+
 
   target 'MyPathTests' do
     inherit! :search_paths
