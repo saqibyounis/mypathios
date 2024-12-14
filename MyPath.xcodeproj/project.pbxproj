@@ -13,9 +13,6 @@
 		1111DBF22CFB62F30069C69D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBF12CFB62F30069C69D /* HomeScreen.swift */; };
 		1111DBF32CFB62F30069C69D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBF12CFB62F30069C69D /* HomeScreen.swift */; };
 		1111DBF42CFB62F30069C69D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBF12CFB62F30069C69D /* HomeScreen.swift */; };
-		1111DBF72CFB671C0069C69D /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBF62CFB671C0069C69D /* PhotoPickerView.swift */; };
-		1111DBF82CFB671C0069C69D /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBF62CFB671C0069C69D /* PhotoPickerView.swift */; };
-		1111DBF92CFB671C0069C69D /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DBF62CFB671C0069C69D /* PhotoPickerView.swift */; };
 		1111DC032CFE23E00069C69D /* TargetEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DC022CFE23E00069C69D /* TargetEnums.swift */; };
 		1111DC042CFE23E00069C69D /* TargetEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DC022CFE23E00069C69D /* TargetEnums.swift */; };
 		1111DC052CFE23E00069C69D /* TargetEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DC022CFE23E00069C69D /* TargetEnums.swift */; };
@@ -145,6 +142,24 @@
 		11232FDC2D079B130070F9F9 /* AttachmentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FDB2D079B130070F9F9 /* AttachmentEntity.swift */; };
 		11232FDD2D079B130070F9F9 /* AttachmentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FDB2D079B130070F9F9 /* AttachmentEntity.swift */; };
 		11232FDE2D079B130070F9F9 /* AttachmentEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FDB2D079B130070F9F9 /* AttachmentEntity.swift */; };
+		11232FE12D09F22A0070F9F9 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FE02D09F2170070F9F9 /* DocumentPicker.swift */; };
+		11232FE22D09F22A0070F9F9 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FE02D09F2170070F9F9 /* DocumentPicker.swift */; };
+		11232FE32D09F22A0070F9F9 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FE02D09F2170070F9F9 /* DocumentPicker.swift */; };
+		11232FE52D09F24A0070F9F9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FE42D09F2490070F9F9 /* ImagePicker.swift */; };
+		11232FE62D09F24A0070F9F9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FE42D09F2490070F9F9 /* ImagePicker.swift */; };
+		11232FE72D09F24A0070F9F9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FE42D09F2490070F9F9 /* ImagePicker.swift */; };
+		11232FE92D09F2800070F9F9 /* AttachmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FE82D09F27A0070F9F9 /* AttachmentListView.swift */; };
+		11232FEA2D09F2800070F9F9 /* AttachmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FE82D09F27A0070F9F9 /* AttachmentListView.swift */; };
+		11232FEB2D09F2800070F9F9 /* AttachmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FE82D09F27A0070F9F9 /* AttachmentListView.swift */; };
+		11232FED2D09F2B20070F9F9 /* AttachmentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FEC2D09F2A90070F9F9 /* AttachmentItemView.swift */; };
+		11232FEE2D09F2B20070F9F9 /* AttachmentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FEC2D09F2A90070F9F9 /* AttachmentItemView.swift */; };
+		11232FEF2D09F2B20070F9F9 /* AttachmentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FEC2D09F2A90070F9F9 /* AttachmentItemView.swift */; };
+		11232FF12D09F2F90070F9F9 /* AttachmentActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FF02D09F2E20070F9F9 /* AttachmentActionView.swift */; };
+		11232FF22D09F2F90070F9F9 /* AttachmentActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FF02D09F2E20070F9F9 /* AttachmentActionView.swift */; };
+		11232FF32D09F2F90070F9F9 /* AttachmentActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FF02D09F2E20070F9F9 /* AttachmentActionView.swift */; };
+		11232FF52D09F3700070F9F9 /* AttachmentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FF42D09F3630070F9F9 /* AttachmentHandler.swift */; };
+		11232FF62D09F3700070F9F9 /* AttachmentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FF42D09F3630070F9F9 /* AttachmentHandler.swift */; };
+		11232FF72D09F3700070F9F9 /* AttachmentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232FF42D09F3630070F9F9 /* AttachmentHandler.swift */; };
 		117CAD882CFA34EF00CF18ED /* TargetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD782CFA34EF00CF18ED /* TargetRepository.swift */; };
 		117CAD892CFA34F000CF18ED /* TargetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD782CFA34EF00CF18ED /* TargetRepository.swift */; };
 		117CAD8A2CFA34F000CF18ED /* TargetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117CAD782CFA34EF00CF18ED /* TargetRepository.swift */; };
@@ -182,7 +197,6 @@
 /* Begin PBXFileReference section */
 		1111DBE42CFA80130069C69D /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		1111DBF12CFB62F30069C69D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		1111DBF62CFB671C0069C69D /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
 		1111DC022CFE23E00069C69D /* TargetEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetEnums.swift; sourceTree = "<group>"; };
 		1111DC392CFE3A3F0069C69D /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		11232F112D0514190070F9F9 /* GoalEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalEntity.swift; sourceTree = "<group>"; };
@@ -226,6 +240,12 @@
 		11232FD22D078A3C0070F9F9 /* TaskDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailsViewModel.swift; sourceTree = "<group>"; };
 		11232FD62D079A130070F9F9 /* AttachmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentView.swift; sourceTree = "<group>"; };
 		11232FDB2D079B130070F9F9 /* AttachmentEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentEntity.swift; sourceTree = "<group>"; };
+		11232FE02D09F2170070F9F9 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		11232FE42D09F2490070F9F9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		11232FE82D09F27A0070F9F9 /* AttachmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentListView.swift; sourceTree = "<group>"; };
+		11232FEC2D09F2A90070F9F9 /* AttachmentItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentItemView.swift; sourceTree = "<group>"; };
+		11232FF02D09F2E20070F9F9 /* AttachmentActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentActionView.swift; sourceTree = "<group>"; };
+		11232FF42D09F3630070F9F9 /* AttachmentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentHandler.swift; sourceTree = "<group>"; };
 		117CAD782CFA34EF00CF18ED /* TargetRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetRepository.swift; sourceTree = "<group>"; };
 		117CAD9E2CFA35AB00CF18ED /* TaskEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskEnums.swift; sourceTree = "<group>"; };
 		1187F1272CF4ED720068B243 /* MyPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -296,9 +316,8 @@
 		1111DBF52CFB670D0069C69D /* CommonViews */ = {
 			isa = PBXGroup;
 			children = (
-				11232FD62D079A130070F9F9 /* AttachmentView.swift */,
+				11232FDF2D09F2050070F9F9 /* Attachments */,
 				11232FA22D05FFB10070F9F9 /* StatusSelectionView.swift */,
-				1111DBF62CFB671C0069C69D /* PhotoPickerView.swift */,
 			);
 			path = CommonViews;
 			sourceTree = "<group>";
@@ -529,6 +548,20 @@
 				11232FDB2D079B130070F9F9 /* AttachmentEntity.swift */,
 			);
 			path = Attachment;
+			sourceTree = "<group>";
+		};
+		11232FDF2D09F2050070F9F9 /* Attachments */ = {
+			isa = PBXGroup;
+			children = (
+				11232FF42D09F3630070F9F9 /* AttachmentHandler.swift */,
+				11232FF02D09F2E20070F9F9 /* AttachmentActionView.swift */,
+				11232FEC2D09F2A90070F9F9 /* AttachmentItemView.swift */,
+				11232FE82D09F27A0070F9F9 /* AttachmentListView.swift */,
+				11232FE42D09F2490070F9F9 /* ImagePicker.swift */,
+				11232FE02D09F2170070F9F9 /* DocumentPicker.swift */,
+				11232FD62D079A130070F9F9 /* AttachmentView.swift */,
+			);
+			path = Attachments;
 			sourceTree = "<group>";
 		};
 		117CAD772CFA34EF00CF18ED /* Models */ = {
@@ -966,9 +999,12 @@
 				11232FA72D0623E60070F9F9 /* TaskListView.swift in Sources */,
 				11232F232D051BBE0070F9F9 /* RoutineEntity.swift in Sources */,
 				1111DBE52CFA80130069C69D /* AppTheme.swift in Sources */,
+				11232FE52D09F24A0070F9F9 /* ImagePicker.swift in Sources */,
 				11232F4B2D052D370070F9F9 /* GoalTypeSelectionView.swift in Sources */,
 				11232FB02D0628530070F9F9 /* TargetDetailsView.swift in Sources */,
 				11232F192D0516F90070F9F9 /* TargetEntity.swift in Sources */,
+				11232FF32D09F2F90070F9F9 /* AttachmentActionView.swift in Sources */,
+				11232FED2D09F2B20070F9F9 /* AttachmentItemView.swift in Sources */,
 				1111DC3A2CFE3A3F0069C69D /* DateUtils.swift in Sources */,
 				11232F7D2D05FC4B0070F9F9 /* TaskService.swift in Sources */,
 				11232FAB2D0627720070F9F9 /* TargetListView.swift in Sources */,
@@ -981,10 +1017,11 @@
 				11232FBA2D06310D0070F9F9 /* DIConfig.swift in Sources */,
 				11232F5B2D05E20E0070F9F9 /* GoalListViewModel.swift in Sources */,
 				11232F522D052DB40070F9F9 /* GoalEnums.swift in Sources */,
-				1111DBF72CFB671C0069C69D /* PhotoPickerView.swift in Sources */,
 				11232F4F2D052D630070F9F9 /* PrioritySelectionView.swift in Sources */,
+				11232FE92D09F2800070F9F9 /* AttachmentListView.swift in Sources */,
 				1111DBF22CFB62F30069C69D /* HomeScreen.swift in Sources */,
 				11232FD32D078A450070F9F9 /* TaskDetailsViewModel.swift in Sources */,
+				11232FF62D09F3700070F9F9 /* AttachmentHandler.swift in Sources */,
 				11232F2B2D0524260070F9F9 /* GoalRepository.swift in Sources */,
 				11232FD72D079A1B0070F9F9 /* AttachmentView.swift in Sources */,
 				1111DC032CFE23E00069C69D /* TargetEnums.swift in Sources */,
@@ -996,6 +1033,7 @@
 				11942AFE2CFF3E5200F247BF /* Extensions.swift in Sources */,
 				117CAD9F2CFA35AB00CF18ED /* TaskEnums.swift in Sources */,
 				11232FDC2D079B130070F9F9 /* AttachmentEntity.swift in Sources */,
+				11232FE12D09F22A0070F9F9 /* DocumentPicker.swift in Sources */,
 				11232F302D05245D0070F9F9 /* GoalRepositoryImpl.swift in Sources */,
 				11232F9F2D05FE370070F9F9 /* TaskFormView.swift in Sources */,
 				11232F622D05F78B0070F9F9 /* TargetServiceImpl.swift in Sources */,
@@ -1017,12 +1055,15 @@
 				11232F662D05FAD90070F9F9 /* TargetService.swift in Sources */,
 				11232F222D051BBE0070F9F9 /* RoutineEntity.swift in Sources */,
 				11232F4E2D052D630070F9F9 /* PrioritySelectionView.swift in Sources */,
+				11232FE32D09F22A0070F9F9 /* DocumentPicker.swift in Sources */,
 				11232F862D05FD120070F9F9 /* TargetListViewModel.swift in Sources */,
 				11232F322D05245D0070F9F9 /* GoalRepositoryImpl.swift in Sources */,
+				11232FEF2D09F2B20070F9F9 /* AttachmentItemView.swift in Sources */,
 				11232F2C2D0524260070F9F9 /* GoalRepository.swift in Sources */,
 				11232F132D0514190070F9F9 /* GoalEntity.swift in Sources */,
 				11232FDE2D079B130070F9F9 /* AttachmentEntity.swift in Sources */,
 				11232F6A2D05FBA40070F9F9 /* TaskRepository.swift in Sources */,
+				11232FEB2D09F2800070F9F9 /* AttachmentListView.swift in Sources */,
 				1111DBE62CFA80130069C69D /* AppTheme.swift in Sources */,
 				1111DC3B2CFE3A3F0069C69D /* DateUtils.swift in Sources */,
 				117CAD892CFA34F000CF18ED /* TargetRepository.swift in Sources */,
@@ -1031,7 +1072,6 @@
 				11232F722D05FBCE0070F9F9 /* TaskRepositoryImpl.swift in Sources */,
 				11232FC42D07844D0070F9F9 /* FileManager.swift in Sources */,
 				11232F942D05FD710070F9F9 /* TargetFormViewModel.swift in Sources */,
-				1111DBF82CFB671C0069C69D /* PhotoPickerView.swift in Sources */,
 				11232F5A2D05E20E0070F9F9 /* GoalListViewModel.swift in Sources */,
 				11232FD52D078A450070F9F9 /* TaskDetailsViewModel.swift in Sources */,
 				11232FD02D078A1E0070F9F9 /* TaskDetailsView.swift in Sources */,
@@ -1041,11 +1081,13 @@
 				11232FB32D06287D0070F9F9 /* TargetDetailsViewModel.swift in Sources */,
 				11232FD92D079A1B0070F9F9 /* AttachmentView.swift in Sources */,
 				11232F1C2D0517EF0070F9F9 /* TaskEntity.swift in Sources */,
+				11232FF22D09F2F90070F9F9 /* AttachmentActionView.swift in Sources */,
 				11232FA92D0623E60070F9F9 /* TaskListView.swift in Sources */,
 				11232FAD2D0627720070F9F9 /* TargetListView.swift in Sources */,
 				11232F282D051C290070F9F9 /* ScheduleEntity.swift in Sources */,
 				1187F13E2CF4ED760068B243 /* MyPathTests.swift in Sources */,
 				11232F7B2D05FC4B0070F9F9 /* TaskService.swift in Sources */,
+				11232FF52D09F3700070F9F9 /* AttachmentHandler.swift in Sources */,
 				11232F9B2D05FE270070F9F9 /* TargetFormView.swift in Sources */,
 				11232F8B2D05FD220070F9F9 /* TaskListViewModel.swift in Sources */,
 				11232F412D052BC70070F9F9 /* GoalFormViewModel.swift in Sources */,
@@ -1057,6 +1099,7 @@
 				11232F7F2D05FC610070F9F9 /* TaskServiceImpl.swift in Sources */,
 				11232F352D0527C30070F9F9 /* GoalService.swift in Sources */,
 				11232F902D05FD640070F9F9 /* TaskFormViewModel.swift in Sources */,
+				11232FE62D09F24A0070F9F9 /* ImagePicker.swift in Sources */,
 				11232FA12D05FE370070F9F9 /* TaskFormView.swift in Sources */,
 				11232F4A2D052D370070F9F9 /* GoalTypeSelectionView.swift in Sources */,
 				11232F462D052CBF0070F9F9 /* GoalFormView.swift in Sources */,
@@ -1073,14 +1116,16 @@
 				11232F652D05FAD90070F9F9 /* TargetService.swift in Sources */,
 				11232F242D051BBE0070F9F9 /* RoutineEntity.swift in Sources */,
 				11232F4D2D052D630070F9F9 /* PrioritySelectionView.swift in Sources */,
+				11232FE22D09F22A0070F9F9 /* DocumentPicker.swift in Sources */,
 				11232F852D05FD110070F9F9 /* TargetListViewModel.swift in Sources */,
 				11232F312D05245D0070F9F9 /* GoalRepositoryImpl.swift in Sources */,
+				11232FEE2D09F2B20070F9F9 /* AttachmentItemView.swift in Sources */,
 				11232F2D2D0524260070F9F9 /* GoalRepository.swift in Sources */,
 				11232F142D0514190070F9F9 /* GoalEntity.swift in Sources */,
 				11232FDD2D079B130070F9F9 /* AttachmentEntity.swift in Sources */,
 				117CAD8A2CFA34F000CF18ED /* TargetRepository.swift in Sources */,
+				11232FEA2D09F2800070F9F9 /* AttachmentListView.swift in Sources */,
 				11232F6C2D05FBA40070F9F9 /* TaskRepository.swift in Sources */,
-				1111DBF92CFB671C0069C69D /* PhotoPickerView.swift in Sources */,
 				1187F1482CF4ED760068B243 /* MyPathUITests.swift in Sources */,
 				1187F14A2CF4ED760068B243 /* MyPathUITestsLaunchTests.swift in Sources */,
 				11232FBE2D0631C20070F9F9 /* RealmManager.swift in Sources */,
@@ -1097,11 +1142,13 @@
 				11232FB52D06287D0070F9F9 /* TargetDetailsViewModel.swift in Sources */,
 				11232FD82D079A1B0070F9F9 /* AttachmentView.swift in Sources */,
 				11232F392D05299C0070F9F9 /* GoalServiceImpl.swift in Sources */,
+				11232FF12D09F2F90070F9F9 /* AttachmentActionView.swift in Sources */,
 				11232FA82D0623E60070F9F9 /* TaskListView.swift in Sources */,
 				11232FAC2D0627720070F9F9 /* TargetListView.swift in Sources */,
 				11232F1E2D0517EF0070F9F9 /* TaskEntity.swift in Sources */,
 				11232F262D051C290070F9F9 /* ScheduleEntity.swift in Sources */,
 				11232F7C2D05FC4B0070F9F9 /* TaskService.swift in Sources */,
+				11232FF72D09F3700070F9F9 /* AttachmentHandler.swift in Sources */,
 				11232F9C2D05FE270070F9F9 /* TargetFormView.swift in Sources */,
 				11232F892D05FD220070F9F9 /* TaskListViewModel.swift in Sources */,
 				11232F402D052BC70070F9F9 /* GoalFormViewModel.swift in Sources */,
@@ -1113,6 +1160,7 @@
 				11232F812D05FC610070F9F9 /* TaskServiceImpl.swift in Sources */,
 				11232F372D0527C30070F9F9 /* GoalService.swift in Sources */,
 				11232F912D05FD640070F9F9 /* TaskFormViewModel.swift in Sources */,
+				11232FE72D09F24A0070F9F9 /* ImagePicker.swift in Sources */,
 				11232FA02D05FE370070F9F9 /* TaskFormView.swift in Sources */,
 				11232F492D052D370070F9F9 /* GoalTypeSelectionView.swift in Sources */,
 				11232F442D052CBF0070F9F9 /* GoalFormView.swift in Sources */,
@@ -1283,6 +1331,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85eb.MyPath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1316,6 +1367,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85eb.MyPath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

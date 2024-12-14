@@ -32,7 +32,8 @@ class AttachmentEntity: Object, Identifiable {
     @Persisted var size: Int64
     @Persisted var localPath: String
     @Persisted var createdAt: Date
-    
+    @Persisted var thumbnailPath: String?
+
     // Computed property for type
     var type: AttachmentType {
         get {
@@ -49,13 +50,18 @@ class AttachmentEntity: Object, Identifiable {
         }
     }
     
+    var thumbnailUrl: URL? {
+        guard let thumbnailPath = thumbnailPath else { return nil }
+        return FileManagerService.shared.thumbnailsDirectory.appendingPathComponent(thumbnailPath)
+    }
+    
     
     
     convenience init(id: String = UUID().uuidString,
                     name: String,
                     type: AttachmentType,
                     size: Int64,
-                     localPath: String) {
+                     localPath: String, thumbnailPath: String?) {
         self.init()
         self.id = id
         self.name = name
@@ -63,6 +69,7 @@ class AttachmentEntity: Object, Identifiable {
         self.size = size
         self.localPath = localPath
         self.createdAt = Date()
+        self.thumbnailPath = thumbnailPath
     }
     
     // Convert to DTO
@@ -72,7 +79,9 @@ class AttachmentEntity: Object, Identifiable {
             name: name,
             type: type,
             size: size,
-            url: URL(string: localPath) ?? URL(fileURLWithPath: "")
+            url: URL(string: localPath) ?? URL(fileURLWithPath: ""),
+            thumbnailUrl: URL(string: thumbnailPath ?? "")
+            
         )
     }
 }
@@ -85,7 +94,8 @@ extension Attachment {
             name: name,
             type: type,
             size: size,
-            localPath: url.path()
+            localPath: url.path(),
+            thumbnailPath: thumbnailUrl?.path() ?? nil
         )
     }
 }
@@ -97,4 +107,5 @@ struct Attachment: Identifiable {
     let type: AttachmentType
     let size: Int64
     let url: URL
+    let thumbnailUrl: URL?
 }

@@ -11,6 +11,7 @@ target 'MyPath' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   pod 'RealmSwift', '~> 20.0'
+  
   # RxSwift and RxCocoa
   pod 'RxSwift', '~> 6.6'
   pod 'RxCocoa', '~> 6.6'
@@ -22,7 +23,6 @@ target 'MyPath' do
   pod 'RxSwiftExt'
   pod "Resolver"
 
-
   target 'MyPathTests' do
     inherit! :search_paths
     # Pods for testing
@@ -31,5 +31,4 @@ target 'MyPath' do
   target 'MyPathUITests' do
     # Pods for testing
   end
-
 end

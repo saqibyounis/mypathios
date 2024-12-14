@@ -76,26 +76,34 @@ struct AttachmentsSection: View {
                 .fontWeight(.bold)
             
             AttachmentListView(
-                attachments: viewModel.task!.attachments,
+                attachments: Array(viewModel.task!.attachments),
                         onDeleteAttachment: { attachment in
                             if let index = viewModel.task!.attachments.firstIndex(where: { $0.id == attachment.id }) {
                                 viewModel.task!.attachments.remove(at: index)
                             }
                         },
-                        onAttachmentTapped: { attachment in
-                            // Handle attachment tap (e.g., preview file)
-                            print("Tapped attachment: \(attachment.name)")
+                onAttachmentTapped: { attachment in
+                    // Handle attachment tap (e.g., preview file)
+                    print("Tapped attachment: \(attachment.name)")
+                    
+                    let localUrl = attachment.toAttachment().url
+                    
+                    if UIApplication.shared.canOpenURL(localUrl) {
+                        UIApplication.shared.open(localUrl, options: [:]) { success in
+                            if !success {
+                                print("Failed to open attachment at: \(localUrl)")
+                            }
                         }
-                    )
+                    } else {
+                        print("Cannot open URL: \(localUrl)")
+                    }
+                }              )
             AttachmentActionsView (){ attachment in
                 print(attachment.name)
                 viewModel.addAttachment(attachment: attachment)
             } onError: { error in
                 print(error)
             }
-
-
-           
         }
     }
 }

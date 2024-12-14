@@ -16,9 +16,9 @@ final class RealmManager {
     
     func configure() {
         let config = Realm.Configuration(
-            schemaVersion: 7,
+            schemaVersion: 8,
             migrationBlock: { migration, oldSchemaVersion in
-                if oldSchemaVersion < 7 {
+                if oldSchemaVersion < 8 {
                     // Perform migration steps here
                 }
             }
@@ -33,18 +33,5 @@ final class RealmManager {
         }
     }
     
-    // Helper method for testing
-    func configureForTesting() {
-        let config = Realm.Configuration(
-            inMemoryIdentifier: "test-realm",
-            schemaVersion: 1,
-            deleteRealmIfMigrationNeeded: true
-        )
-        
-        do {
-            realm = try Realm(configuration: config)
-        } catch {
-            fatalError("Failed to initialize test Realm: \(error.localizedDescription)")
-        }
-    }
+    
 }
