@@ -12,40 +12,40 @@ struct HomeScreen: View {
         NavigationView {
            
              List {
-                 NavigationLink(destination: GoalFormView()) {
-                    VStack(alignment: .leading) {
-                        Text("Goal")
-                            .font(.headline)
-                        Text("Create Goal")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                    }}
-                
-             
-                 NavigationLink(destination: GoalsListView()) {
-                    VStack(alignment: .leading) {
-                        Text("Goal List")
-                            .font(.headline)
-                        Text("View all Goals")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                    }}
-                 NavigationLink(destination: TargetFormView(goalName: nil, goalId: nil)) {
-                    VStack(alignment: .leading) {
-                        Text("Target")
-                            .font(.headline)
-                        Text("Create a Target")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                    }}
-                 NavigationLink(destination: TargetListView()) {
-                    VStack(alignment: .leading) {
-                        Text("Target List")
-                            .font(.headline)
-                        Text("View all Target")
-                            .font(.subheadline)
-                            .foregroundColor(.secondary)
-                    }}
+//                 NavigationLink(destination: GoalFormView()) {
+//                    VStack(alignment: .leading) {
+//                        Text("Goal")
+//                            .font(.headline)
+//                        Text("Create Goal")
+//                            .font(.subheadline)
+//                            .foregroundColor(.secondary)
+//                    }}
+//                
+//             
+//                 NavigationLink(destination: GoalsListView()) {
+//                    VStack(alignment: .leading) {
+//                        Text("Goal List")
+//                            .font(.headline)
+//                        Text("View all Goals")
+//                            .font(.subheadline)
+//                            .foregroundColor(.secondary)
+//                    }}
+//                 NavigationLink(destination: TargetFormView(goalName: nil, goalId: nil)) {
+//                    VStack(alignment: .leading) {
+//                        Text("Target")
+//                            .font(.headline)
+//                        Text("Create a Target")
+//                            .font(.subheadline)
+//                            .foregroundColor(.secondary)
+//                    }}
+//                 NavigationLink(destination: TargetListView()) {
+//                    VStack(alignment: .leading) {
+//                        Text("Target List")
+//                            .font(.headline)
+//                        Text("View all Target")
+//                            .font(.subheadline)
+//                            .foregroundColor(.secondary)
+//                    }}
                  
                  NavigationLink(destination: TaskFormView(targetName: nil, targetId: nil, task: nil)) {
                     VStack(alignment: .leading) {

@@ -17,12 +17,16 @@ class TaskFormViewModel: ObservableObject {
     @Published var name: String = ""
     @Published var description: String = ""
     @Published var duration: Double = 30
+    @Published var dificultyLevel: Double = 0
     @Published var status: TaskStatus = .started
     @Published var showError: Bool = false
     @Published var errorMessage: String = ""
     @Published var isSaving: Bool = false
     @Published var shouldDismiss: Bool = false
     @Published var isLoading: Bool = false
+    @Published var selectedPriority: Priority = .low
+    @Published var startDate: Date = Date().addingTimeInterval(7776000)
+
     
     init(service: TaskServiceImpl, targetId: String?, task: TaskEntity?) {
         self.service = service

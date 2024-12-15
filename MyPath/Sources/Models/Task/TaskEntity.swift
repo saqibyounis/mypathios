@@ -16,6 +16,7 @@ class TaskEntity: Object, ObjectKeyIdentifiable {
     @Persisted var duration: Int? // Duration in minutes
     @Persisted var status: TaskStatus = .inProgress
     @Persisted var progress: Double = 0.0
+    @Persisted var dificultyLevel: Double = 0.0
     @Persisted var createdAt: Int = Int(Date().timeIntervalSince1970 * 1000)
     @Persisted var completedAt: Int?
     @Persisted var parentTargetId: String? // Making parent target optional

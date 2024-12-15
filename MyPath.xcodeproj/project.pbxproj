@@ -19,6 +19,9 @@
 		1111DC3A2CFE3A3F0069C69D /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DC392CFE3A3F0069C69D /* DateUtils.swift */; };
 		1111DC3B2CFE3A3F0069C69D /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DC392CFE3A3F0069C69D /* DateUtils.swift */; };
 		1111DC3C2CFE3A3F0069C69D /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1111DC392CFE3A3F0069C69D /* DateUtils.swift */; };
+		1122C3002D0F22EA00967DB6 /* DifficultySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122C2FF2D0F22E800967DB6 /* DifficultySlider.swift */; };
+		1122C3012D0F22EA00967DB6 /* DifficultySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122C2FF2D0F22E800967DB6 /* DifficultySlider.swift */; };
+		1122C3022D0F22EA00967DB6 /* DifficultySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122C2FF2D0F22E800967DB6 /* DifficultySlider.swift */; };
 		11232F122D0514190070F9F9 /* GoalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232F112D0514190070F9F9 /* GoalEntity.swift */; };
 		11232F132D0514190070F9F9 /* GoalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232F112D0514190070F9F9 /* GoalEntity.swift */; };
 		11232F142D0514190070F9F9 /* GoalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11232F112D0514190070F9F9 /* GoalEntity.swift */; };
@@ -199,6 +202,7 @@
 		1111DBF12CFB62F30069C69D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		1111DC022CFE23E00069C69D /* TargetEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetEnums.swift; sourceTree = "<group>"; };
 		1111DC392CFE3A3F0069C69D /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		1122C2FF2D0F22E800967DB6 /* DifficultySlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultySlider.swift; sourceTree = "<group>"; };
 		11232F112D0514190070F9F9 /* GoalEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalEntity.swift; sourceTree = "<group>"; };
 		11232F162D0516F90070F9F9 /* TargetEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetEntity.swift; sourceTree = "<group>"; };
 		11232F1B2D0517EF0070F9F9 /* TaskEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEntity.swift; sourceTree = "<group>"; };
@@ -316,6 +320,7 @@
 		1111DBF52CFB670D0069C69D /* CommonViews */ = {
 			isa = PBXGroup;
 			children = (
+				1122C2FF2D0F22E800967DB6 /* DifficultySlider.swift */,
 				11232FDF2D09F2050070F9F9 /* Attachments */,
 				11232FA22D05FFB10070F9F9 /* StatusSelectionView.swift */,
 			);
@@ -1031,6 +1036,7 @@
 				11232F8A2D05FD220070F9F9 /* TaskListViewModel.swift in Sources */,
 				11232F452D052CBF0070F9F9 /* GoalFormView.swift in Sources */,
 				11942AFE2CFF3E5200F247BF /* Extensions.swift in Sources */,
+				1122C3012D0F22EA00967DB6 /* DifficultySlider.swift in Sources */,
 				117CAD9F2CFA35AB00CF18ED /* TaskEnums.swift in Sources */,
 				11232FDC2D079B130070F9F9 /* AttachmentEntity.swift in Sources */,
 				11232FE12D09F22A0070F9F9 /* DocumentPicker.swift in Sources */,
@@ -1051,6 +1057,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1122C3022D0F22EA00967DB6 /* DifficultySlider.swift in Sources */,
 				11232FAF2D0628530070F9F9 /* TargetDetailsView.swift in Sources */,
 				11232F662D05FAD90070F9F9 /* TargetService.swift in Sources */,
 				11232F222D051BBE0070F9F9 /* RoutineEntity.swift in Sources */,
@@ -1112,6 +1119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1122C3002D0F22EA00967DB6 /* DifficultySlider.swift in Sources */,
 				11232FB12D0628530070F9F9 /* TargetDetailsView.swift in Sources */,
 				11232F652D05FAD90070F9F9 /* TargetService.swift in Sources */,
 				11232F242D051BBE0070F9F9 /* RoutineEntity.swift in Sources */,
@@ -1313,7 +1321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyPath/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = 7PSR4W6336;
+				DEVELOPMENT_TEAM = DDN4BU72Y6;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1329,7 +1337,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85eb.MyPath;
+				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85ebm.MyPath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1349,7 +1357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyPath/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = 7PSR4W6336;
+				DEVELOPMENT_TEAM = DDN4BU72Y6;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -1365,7 +1373,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85eb.MyPath;
+				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85ebm.MyPath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1384,11 +1392,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7PSR4W6336;
+				DEVELOPMENT_TEAM = DDN4BU72Y6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85eb.MyPathTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85ebm.MyPathTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1405,11 +1413,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7PSR4W6336;
+				DEVELOPMENT_TEAM = DDN4BU72Y6;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85eb.MyPathTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85ebm.MyPathTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1425,10 +1433,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7PSR4W6336;
+				DEVELOPMENT_TEAM = DDN4BU72Y6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85eb.MyPathUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85ebm.MyPathUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1444,10 +1452,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7PSR4W6336;
+				DEVELOPMENT_TEAM = DDN4BU72Y6;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85eb.MyPathUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.87f846b77a7d85ebm.MyPathUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

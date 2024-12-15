@@ -56,10 +56,33 @@ struct TaskFormView: View {
                     }
                     .disabled(viewModel.isSaving)
                 }
+                Section("Dificulty") {
+                    DifficultySlider(value: $viewModel.dificultyLevel)
+                }
                 
                 Section("Associated Target") {
                     Text(targetName ?? "")
                         .foregroundStyle(.secondary)
+                }
+                
+                
+                Section("Start date") {
+                    DatePicker(
+                        "Date",
+                        selection: $viewModel.startDate,
+                        in: Date()...,
+                        displayedComponents: [.date]
+                    )
+                    .disabled(viewModel.isSaving)
+                
+            }
+                
+                Section("Priority") {
+                    VStack{
+                        PrioritySelectionView(selectedPriority: $viewModel.selectedPriority)
+                            .listRowInsets(EdgeInsets())
+                            .padding(.vertical, 8)
+                    }
                 }
                 
                 Section("Status") {
